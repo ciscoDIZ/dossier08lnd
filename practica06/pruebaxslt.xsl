@@ -15,7 +15,7 @@
 					<!--<xsl:apply-templates select="/instituto/curso[2]/alumno[2]/apellidos/text()"/>
 
 					<xsl:apply-templates select="/instituto/curso[@nombre='2º ASIR']/alumno[2]/apellidos/text()"/>-->
-					<xsl:apply-templates select="//alumno[./@cial = 'A95M600']/notas"/>
+					<xsl:apply-templates select="//alumno[./@cial = 'A95M600']/notas/text()"/>
 
 				</pre>
 			</body>
